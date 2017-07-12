@@ -1,0 +1,33 @@
+body {background-color: yellow}
+h1 {color: skyblue}
+h2 {color: skyblue}
+p {color: green}
+
+a:link, a:visited {
+	color: purple;
+	padding: 4px 7px;
+	text-align: center;
+	border: 3px solid purple;
+	border-radius: 12px;
+	margin: 5px;
+	display: inline-block}
+a:hover {
+	color: white;
+	background-color: purple}
+	
+button {
+	font-weight: bold;
+	color: skyblue;
+	background-color: yellow;
+	padding: 4px 7px;
+	text-align: center;
+	border: 3px solid skyblue;
+	border-radius: 12px;
+	margin: 5px}
+button:hover {
+	color: white;
+	background-color: skyblue}
+	
+#cost_table {border: 3px solid skyblue}
+
+#visual, #off {display: none}

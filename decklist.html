@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bant Emeria sample decklist</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<h1>Bant Emeria sample decklist</h1>
+		<a href="DECK_TECH-USE_ONLY.html">back to hub</a>
+		<br>
+		<p>This is a list of my personal Bant Emeria deck. Of course, you should change it based on preference and meta, but here is my take:</p>
+		<hr>
+		<h2>Lands (23)</h2>
+		<div style="color:green"><ul>
+			<li>4x Emeria, the Sky Ruin</li>
+			<li>2x Flooded Strand</li>
+			<li>2x Windswept Heath</li>
+			<li>2x Prairie Stream</li>
+			<li>1x Canopy Vista</li>
+			<li>1x Irrigated Farmland</li>
+			<li>1x Scattered Groves</li>
+			<li>2x Ghost Quarter</li>
+			<li>1x Island</li>
+			<li>1x Forest</li>
+			<li>6x Plains</li>
+		</ul></div>
+		<h2>Creatures (28)</h2>
+		<div style="color:green"><ul>
+			<li>2x Lone Missionary</li>
+			<li>4x Wall of Omens</li>
+			<li>3x Eternal Wintess</li>
+			<li>4x Flickerwisp</li>
+			<li>4x Court Hussar</li>
+			<li>4x Sun Titan</li>
+			<li>4x Renegade Rallier</li>
+			<li>3x Sakura-Tribe Elder</li>
+		</ul></div>
+		<h2>Artifacts (2)</h2>
+		<div style="color:green"><ul>
+			<li>2x Mortarpod</li>
+		</ul></div>
+		<h2>Enchantments (3)</h2>
+		<div style="color:green"><ul>
+			<li>3x Detention Sphere</li>
+		</ul></div>
+		<h2>Instants (2)</h2>
+		<div style="color:green"><ul>
+			<li>2x Ojutai's Command</li>
+		</ul></div>
+		<h2>Planeswalkers (2)</h2>
+		<div style="color:green"><ul>
+			<li>2x Gideon of the Trials</li>
+		</ul></div>
+		<h2>Sideboard (15)</h2>
+		<div style="color:green"><ul>
+			<li>1x Detention Sphere</li>
+			<li>2x Supreme Verdict</li>
+			<li>2x Kor Firewalker</li>
+			<li>2x Tormod's Crypt</li>
+			<li>3x Negate</li>
+			<li>3x Spreading Seas</li>
+			<li>2x Eidelon of Rhetoric</li>
+		</ul></div>
+		<hr>
+		<button onclick="onFunction()" id="on">Visual reference on</button>
+		<button onclick="offFunction()" id="off">Visual reference off</button>
+		<div id="visual">
+		<img id="card" src="magic_back.png">
+		<p><button onclick="document.getElementById('card').src='emeria.jpg'">Emeria, the Sky Ruin</button>
+		<button onclick="document.getElementById('card').src='flooded_strand.jpg'">Flooded Strand</button>
+		<button onclick="document.getElementById('card').src='windswept_heath.jpg'">Windswept Heath</button>
+		<button onclick="document.getElementById('card').src='prairie_stream.jpg'">Prairie Stream</button>
+		<button onclick="document.getElementById('card').src='canopy_vista.jpg'">Canopy Vista</button>
+		<button onclick="document.getElementById('card').src='irrigated_farmland.jpg'">Irrigated Farmland</button>
+		<button onclick="document.getElementById('card').src='scattered_grove.jpg'">Scattered Groves</button>
+		<button onclick="document.getElementById('card').src='ghost_quarter.jpg'">Ghost Quarter</button>
+		<button onclick="document.getElementById('card').src='island.jpg'">Island</button>
+		<button onclick="document.getElementById('card').src='forest.jpg'">Forest</button>
+		<button onclick="document.getElementById('card').src='plains.jpg'">Plains</button>
+		<button onclick="document.getElementById('card').src='lone_missionary.jpg'">Lone Missionary</button>
+		<button onclick="document.getElementById('card').src='wall_of_omens.jpg'">Wall of Omens</button>
+		<button onclick="document.getElementById('card').src='eternal_witness.jpg'">Eternal Witness</button>
+		<button onclick="document.getElementById('card').src='flickerwisp.png'">Flickerwisp</button>
+		<button onclick="document.getElementById('card').src='court_hussar.jpg'">Court Hussar</button>
+		<button onclick="document.getElementById('card').src='sun_titan.jpg'">Sun Titan</button>
+		<button onclick="document.getElementById('card').src='renegade_rallier.jpg'">Renegade Rallier</button>
+		<button onclick="document.getElementById('card').src='tribe_elder.jpg'">Sakura-Tribe Elder</button>
+		<button onclick="document.getElementById('card').src='mortarpod.jpg'">Mortarpod</button>
+		<button onclick="document.getElementById('card').src='detention_sphere.jpg'">Detention Sphere</button>
+		<button onclick="document.getElementById('card').src='ojutais_command.jpg'">Ojutai's Command</button>
+		<button onclick="document.getElementById('card').src='gideon.jpg'">Gideon of the Trials</button></p></div>
+		<hr>
+		<script>			
+			function onFunction() {
+				document.getElementById("visual").style.display="block";
+				document.getElementById("off").style.display="block";
+				document.getElementById("on").style.display="none";}
+
+			function offFunction() {
+				document.getElementById("visual").style.display="none";
+				document.getElementById("off").style.display="none";
+				document.getElementById("on").style.display="block";}
+		</script>
+	</body>
+</html>
